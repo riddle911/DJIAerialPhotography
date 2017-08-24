@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksV2\\FPVDemo\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\log_dialog_view.xml",
+        "source": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksV2\\FPVDemo\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\log_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksMultiScreenTest\\FPVDemo\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\log_dialog_view.xml",
+        "source": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksMultiScreenTest\\FPVDemo\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\log_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksV2\\FPVDemo\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_login.xml",
+        "source": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksV2\\FPVDemo\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_login.xml"
+    },
+    {
+        "merged": "C:\\softwareProjects\\djiSDKAndProjects\\Android-FPVDemo-master\\FPVDemo\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\log_dialog_view.xml",
+        "source": "C:\\softwareProjects\\djiSDKAndProjects\\Android-FPVDemo-master\\FPVDemo\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\log_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksMultiScreenTest\\FPVDemo\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_login.xml",
+        "source": "C:\\softwareProjects\\djiSDKAndProjects\\virtualSticksMultiScreenTest\\FPVDemo\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_login.xml"
+    },
+    {
+        "merged": "C:\\softwareProjects\\djiSDKAndProjects\\Android-FPVDemo-master\\FPVDemo\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_login.xml",
+        "source": "C:\\softwareProjects\\djiSDKAndProjects\\Android-FPVDemo-master\\FPVDemo\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_login.xml"
+    }
+]

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_connection_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_product_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_product_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_submit_value"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:background="@drawable/round_btn"
+        android:elevation="0dp"
+        android:text="Submit"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value Inputs"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <EditText
+        android:id="@+id/widthInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Width (m)"
+        android:inputType="textPersonName"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/lengthInput" />
+
+    <EditText
+        android:id="@+id/lengthInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Length (m)"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/widthInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+    android:id="@+id/velocityInput"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:ems="10"
+    android:hint="Velocity (m/s)"
+    android:inputType="textPersonName"
+        android:layout_alignTop="@+id/text_connection_status"
+        android:layout_alignStart="@+id/lengthInput"
+        android:layout_marginTop="11dp" />
+
+    <EditText
+        android:id="@+id/altitudeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Altitude (m)"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/text_product_info"
+        android:layout_alignBottom="@+id/text_product_info"
+        android:layout_alignStart="@+id/velocityInput" />
+
+    <EditText
+        android:id="@+id/passSpacingInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pass Spacing (m)"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/altitudeInput"
+        android:layout_alignStart="@+id/altitudeInput"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/transverseAxisInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Transverse Axis (Width or Length)"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/cameraOrientationInput"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Camera Orientation (Down or Forward)"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/passSpacingInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>
