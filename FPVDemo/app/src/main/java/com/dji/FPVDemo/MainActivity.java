@@ -451,7 +451,7 @@ public class MainActivity extends Activity implements SurfaceTextureListener, On
         });
     }
 
-    // Function for getting
+    // Function for getting the gimbal instance
     private Gimbal getGimbalInstance() {
         Gimbal gimbal = phanthom4.getGimbal();
         if (gimbal == null) {
