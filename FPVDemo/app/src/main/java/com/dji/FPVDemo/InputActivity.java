@@ -78,6 +78,8 @@ public class InputActivity extends Activity implements OnClickListener{
             case R.id.btn_submit_value:{
                 Intent mainActivity = new Intent(this, MainActivity.class);
                 Bundle valueInputs = new Bundle();
+                
+                // Below if statement is checking if the input values are valid
                 if(widthInputEditText.getText().toString() == null || widthInputEditText.getText().toString().isEmpty() || lengthInputEditText.getText().toString() == null || lengthInputEditText.getText().toString().isEmpty() || transverseAxisInputEditText.getText().toString() == null || transverseAxisInputEditText.getText().toString().isEmpty() || (!transverseAxisInputEditText.getText().toString().toLowerCase().equals("width") && !transverseAxisInputEditText.getText().toString().toLowerCase().equals("length")) || (!cameraOrientationInputEditText.getText().toString().toLowerCase().equals("down") && !cameraOrientationInputEditText.getText().toString().toLowerCase().equals("forward")) ){
                     showToast("Ensure that you have filled in the correct fields with the appropriate values");
                 }
