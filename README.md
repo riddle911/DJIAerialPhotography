@@ -1,6 +1,5 @@
-																														DJIAerialPhotography
+					
 	
-	The DJI Aerial Photography application autonomously flies over a user-specified area and takes pictures of it. These pictures can then be used with a Structure From Motion (SFM) application to be put together and create an aerial map of a certain area.
 
 Prerequisites:
 	Android Studio (https://developer.android.com/studio/install.html)
